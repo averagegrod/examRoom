@@ -6,6 +6,7 @@
 
 themeChanger();
 clickyRows();
+$("time.timeago").timeago();
 
 if($.cookie()){
 	setTheme($.cookie().theme);
@@ -66,6 +67,7 @@ function clickyRows(){
 		})
 		.success(function(jqXHR, textStatus){
 			showMessage("Updated room " + room);
+			compareDates();
 		})
 		.fail(function(jqXHR, textStatus){
 			showMessage("Error: " + textStatus);
@@ -104,14 +106,17 @@ function compareDates(){
 	})
 	.success(function(data){
 		$.each(data, function(i){
-			console.log(data[i].provider);
+			time = data[i].updated_at;
+			$time = $("<time class=\"timeago\" datetime =\""+time+"\"></time>");
+			$('[data-room="'+data[i].room+'"] > .date > time').remove();
+			$('[data-room="'+data[i].room+'"] > .date').append($time);
 			$('[data-room="'+data[i].room+'"] > .patient > input').val(data[i].patientName);
 			$('[data-room="'+data[i].room+'"] > .staff > select').val(data[i].staff);
 			$('[data-room="'+data[i].room+'"] > .providers > select').val(data[i].provider);
 			$('[data-room="'+data[i].room+'"] > .comments > textarea').val(data[i].comments);
-
+			
 		});
-		
+		$("time.timeago").timeago();
 	})
 	.fail(function(jqXHR, textStatus){
 		showMessage("Error: " + textStatus);

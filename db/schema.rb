@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140813194549) do
+ActiveRecord::Schema.define(version: 20140814191213) do
 
   create_table "examrooms", force: true do |t|
     t.integer  "room"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20140813194549) do
     t.datetime "updated_at"
     t.string   "provider"
     t.string   "staff"
+    t.string   "time_ago"
   end
 
   create_table "mas", force: true do |t|
