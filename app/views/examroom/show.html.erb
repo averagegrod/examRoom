@@ -12,7 +12,7 @@
 		<% @rooms.each do |room| %>
 		<tr data-room="<%= room.room %>">
 			<td class="roomLinks"><a href="#"><%= room.room %></a></td>
-			<td class="date"><time class="timeago" datetime="<%= room.updated_at.strftime("%Y-%m-%d %H:%M%z") %>"></time></td>
+			<td class="date"><span><time class="timeago" datetime="<%= room.updated_at.strftime("%Y-%m-%d %H:%M%z") %>"></time></span></td>
 			<td class="patient">
 				<input type="text" value="<%= room.patientName %>"/>
 			</td>

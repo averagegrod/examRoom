@@ -5,8 +5,10 @@
 */
 
 themeChanger();
-clickyRows();
 $("time.timeago").timeago();
+clickyRows();
+
+refreshTable();
 
 if($.cookie()){
 	setTheme($.cookie().theme);
@@ -58,24 +60,15 @@ function clickyRows(){
 		staff = $parent.siblings(".staff").children("select").val();
 		provider = $parent.siblings(".providers").children("select").val();
 		comments = $parent.siblings(".comments").children().first().val();
-		console.log(room);
-
-		$.ajax({
-			url: "/examroom/update_room",
-			type: "POST",
-			data: { room:room, patientName:patientName, staff:staff, provider:provider, comments:comments }
-		})
-		.success(function(jqXHR, textStatus){
-			showMessage("Updated room " + room);
-			compareDates();
-		})
-		.fail(function(jqXHR, textStatus){
-			showMessage("Error: " + textStatus);
-		});
+		success = ("Updated room: " + room);
+		updateRoom(room, patientName, staff, provider, comments, success);
 	});
 
+	$("td.date").click(function(){
+		room = $(this).closest("tr").data("room");
+		clearRow(room);
+	});
 }
-
 
 $("#rooms").on('change', function(){
 	var rooms = $(this).val();
@@ -84,12 +77,27 @@ $("#rooms").on('change', function(){
 		type: "POST",
 		data: { rooms: rooms },
 	});
-	
+
 	$("#flash").append(function(){
 		$message = $("<div data-alert class='alert-box round success'><div>Room Updated</div><a href='#'' class='close'>&times;</a></div>");
 		return $message.click(function(){$(this).remove();});
 	});
 });
+
+function updateRoom(room, patientName, staff, provider, comments, success){
+	$.ajax({
+			url: "/examroom/update_room",
+			type: "POST",
+			data: { room:room, patientName:patientName, staff:staff, provider:provider, comments:comments }
+		})
+		.success(function(){
+			showMessage(success);
+			compareDates();
+		})
+		.fail(function(jqXHR, textStatus){
+			showMessage("Error: " + textStatus);
+		});
+}
 
 function showMessage(message){
 	$("#message").text(message);
@@ -108,19 +116,32 @@ function compareDates(){
 		$.each(data, function(i){
 			time = data[i].updated_at;
 			$time = $("<time class=\"timeago\" datetime =\""+time+"\"></time>");
-			$('[data-room="'+data[i].room+'"] > .date > time').remove();
-			$('[data-room="'+data[i].room+'"] > .date').append($time);
+			$('[data-room="'+data[i].room+'"] > .date > span > time').remove();
+			$('[data-room="'+data[i].room+'"] > .date > span').append($time);
 			$('[data-room="'+data[i].room+'"] > .patient > input').val(data[i].patientName);
 			$('[data-room="'+data[i].room+'"] > .staff > select').val(data[i].staff);
 			$('[data-room="'+data[i].room+'"] > .providers > select').val(data[i].provider);
 			$('[data-room="'+data[i].room+'"] > .comments > textarea').val(data[i].comments);
-			
+
 		});
 		$("time.timeago").timeago();
 	})
 	.fail(function(jqXHR, textStatus){
 		showMessage("Error: " + textStatus);
 	});
+}
+
+function clearRow(room){
+	console.log(room);
+	patientName = staff = provider = comments = "";
+	success = "Cleared room:" + room;
+	console.log(staff);
+	updateRoom(room, patientName, staff, provider, comments, success);
+
+}
+function refreshTable(){
+	compareDates();
+	var timer1 = setTimeout(refreshTable, 10000);
 }
 
 //buttons.removeAttr('disabled');

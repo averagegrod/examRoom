@@ -11,6 +11,12 @@ a {
 	text-decoration: none;
 }
 
+.date:hover span{
+	display:none;
+}
+.date:hover:before {
+	content:"Click to clear row"
+}
 table{
 	background: white;
 	border-collapse: collapse;
