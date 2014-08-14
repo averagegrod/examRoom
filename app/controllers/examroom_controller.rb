@@ -35,4 +35,11 @@ class ExamroomController < ApplicationController
 		end
 	end
 
+	def update_all
+		now = 10.minutes.ago
+		rooms = Examroom.where("updated_at >=?", now)
+
+		dates = params[:rooms]
+		render :json => rooms, status: :ok
+	end
 end

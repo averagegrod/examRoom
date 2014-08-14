@@ -98,7 +98,25 @@ function showMessage(message){
 }
 
 function compareDates(){
-	var rows = $('tbody > tr > .date');
+	$.ajax({
+		url: "/examroom/update_all",
+		type: "POST"
+	})
+	.success(function(data){
+		$.each(data, function(i){
+			console.log(data[i].provider);
+			$('[data-room="'+data[i].room+'"] > .patient > input').val(data[i].patientName);
+			$('[data-room="'+data[i].room+'"] > .staff > select').val(data[i].staff);
+			$('[data-room="'+data[i].room+'"] > .providers > select').val(data[i].provider);
+			$('[data-room="'+data[i].room+'"] > .comments > textarea').val(data[i].comments);
+
+		});
+		
+	})
+	.fail(function(jqXHR, textStatus){
+		showMessage("Error: " + textStatus);
+	});
 }
+
 //buttons.removeAttr('disabled');
 //		$(this).attr('disabled', true);

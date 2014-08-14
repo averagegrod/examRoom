@@ -7,6 +7,7 @@ Rails.application.routes.draw do
  get 'settings/show'
  post 'examroom/set_rooms'
  post 'examroom/update_room'
+ post 'examroom/update_all'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

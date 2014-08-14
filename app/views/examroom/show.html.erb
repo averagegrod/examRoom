@@ -10,9 +10,9 @@
 
 	<tbody>
 		<% @rooms.each do |room| %>
-		<tr>
+		<tr data-room="<%= room.room %>">
 			<td class="roomLinks"><a href="#"><%= room.room %></a></td>
-			<td class="date" data-time="<%= room.updated_at %>"><%= time_ago_in_words(room.updated_at) %></td>
+			<td class="date"><%= time_ago_in_words(room.updated_at) %></td>
 			<td class="patient">
 				<input type="text" value="<%= room.patientName %>"/>
 			</td>
@@ -22,9 +22,9 @@
 					<option value="0"></option>
 					<% @mas.each do |ma| %>
 					<% if ma.name == room.staff %>
-					<option selected><%= ma.name %></option>
+					<option value="<%= ma.name %>" selected><%= ma.name %></option>
 					<% else %>			
-					<option><%= ma.name %></option>
+					<option value="<%= ma.name %>"><%= ma.name %></option>
 					<% end %>
 					<% end %>
 				</select>
@@ -34,9 +34,9 @@
 					<option value="0"></option>
 					<% @providers.each do |provider| %>
 					<% if provider.name == room.provider %>
-					<option selected><%= provider.name %></option>
+					<option value="<%= provider.name %>" selected><%= provider.name %></option>
 					<% else %>			
-					<option><%= provider.name %></option>
+					<option value="<%= provider.name %>"><%= provider.name %></option>
 					<% end %>
 					<% end %>
 				</select>
