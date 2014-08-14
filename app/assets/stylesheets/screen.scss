@@ -1,0 +1,84 @@
+//@import "foundation/components/tables";
+
+body{
+	font-family: 'Source Sans Pro','Open Sans',Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+table{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.controls > button {
+	border: none;
+	border-radius: .15em;
+	margin-bottom: .5em;
+	padding: .5em;
+}
+
+th {
+	font-size: 2rem;
+	font-weight: 300;
+	padding: .5rem 0;
+}
+
+tr{
+	height: 3rem;
+
+}
+
+.roomLinks a{
+	margin-left: 10px;
+	padding: 10px;
+	&:hover{
+		color: #EEE;
+	}
+}
+
+select{
+	@include appearance(none);
+	border:none;
+	width: 110px;
+}
+
+textarea{
+	width:100%;
+}
+
+.room{
+	text-align: center;
+}
+
+.comments{
+	text-align: left;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+ul{
+	background: white;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 4px;
+}
+
+li {
+	text-indent: 10px;
+}
+
+@include sticky-footer(75px);
+
+#footer{
+	border-top: 1px solid #CCC;
+	text-align: center;
+}

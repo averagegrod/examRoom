@@ -1,0 +1,85 @@
+$themes:
+default #CCCCCC,
+yellow #F4D03F,
+red #EF4836,
+blue #22A7F0,
+green #2ECC71,
+purple #9B59B6;
+
+@each $theme in $themes {
+
+  $name: nth($theme, 1);
+  $color: nth($theme, 2);
+  $secondary: shade($color, 20%);
+  $contrasted-light-default: white;
+  $contrasted-lightness-threshold: 90%;
+  
+  .theme-#{$name} {
+    background-color: $color;
+    @include contrasted($color);
+  }
+
+  .theme-#{$name}-dark {
+    background-color: $secondary;
+    color:white;
+  }
+
+  .theme-#{$name}-text {
+    color:$secondary;
+  }
+
+  .theme-#{$name}-row, {
+    background: tint($color, 95%);
+
+  }
+
+  .form-#{$name} {
+    color: $secondary;
+    &:focus{
+      border: 1px solid $color;
+      color: $secondary;
+      outline: none;
+    }
+  }
+
+  .select-#{$name} {
+    color: $secondary;
+    border: none;
+    &:focus{
+      @include appearance(menulist);
+      border: 1px solid $color;
+      color: $secondary;
+      outline: none;
+    }
+  }
+
+  .text-#{$name} {
+    color: $secondary;
+    border: none;
+    &:focus{
+      border: 1px solid $color;
+      color: $secondary;
+      outline: none;
+    }
+  }
+
+
+  [data-theme='#{$name}'] {
+    background: $color;
+    
+    &:hover {
+      background: $secondary;
+      @include transition-duration(.2s);
+    }
+    
+    &[disabled] {
+      background: $color;
+      border: 1px solid $secondary;
+      &:hover{
+        background: $color;
+      }
+    }
+
+  }
+}
+

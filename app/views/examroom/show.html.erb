@@ -1,0 +1,64 @@
+<table>
+	<thead>
+		<th width="7%">Room</th>
+		<th width="10%">Time</th>
+		<th width="30%">Patient Name</th>
+		<th width="8%">MA</th>
+		<th width="10%">Provider</th>
+		<th cols="50">Comments</th>
+	</thead>
+
+	<tbody>
+		<% @rooms.each do |room| %>
+		<tr>
+			<td class="roomLinks"><a href="#"><%= room.room %></a></td>
+			<td class="date" data-time="<%= room.updated_at %>"><%= time_ago_in_words(room.updated_at) %></td>
+			<td class="patient">
+				<input type="text" value="<%= room.patientName %>"/>
+			</td>
+			<td class="staff">
+				
+				<select>
+					<option value="0"></option>
+					<% @mas.each do |ma| %>
+					<% if ma.name == room.staff %>
+					<option selected><%= ma.name %></option>
+					<% else %>			
+					<option><%= ma.name %></option>
+					<% end %>
+					<% end %>
+				</select>
+			</td>
+			<td class="providers">
+				<select>
+					<option value="0"></option>
+					<% @providers.each do |provider| %>
+					<% if provider.name == room.provider %>
+					<option selected><%= provider.name %></option>
+					<% else %>			
+					<option><%= provider.name %></option>
+					<% end %>
+					<% end %>
+				</select>
+			</td>
+			<td class="comments">
+				<textarea cols="50" rows="2"><%= room.comments %></textarea>
+			</td>
+		</tr>
+		<% end %>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td>Waiting Room:</td>
+			<td colspan="3">
+				<textarea id="waitingRoom" cols="122" rows="3"></textarea>
+			</td>
+			<td>
+				<input type="button" id="waitingRoom_btn" value="Update" />
+			</td>
+			<td id="message"></td>
+		</tr>
+
+	</tfoot>
+</table>
