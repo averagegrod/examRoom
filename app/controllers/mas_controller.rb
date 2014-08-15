@@ -5,7 +5,7 @@ class MasController < ApplicationController
 	def create
 		@ma = Ma.new(ma_params)
 		if @ma.save
-			flash[:succss] = "create!"
+			flash[:notice] = "Added staff member."
 			redirect_to :back
 		else
 			flash[:error] = @ma.errors.full_messages[0]

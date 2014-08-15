@@ -5,7 +5,7 @@ class ProvidersController < ApplicationController
 	def create
 		@provider = Provider.new(provider_params)
 		if @provider.save
-			flash[:succss] = "create!"
+			flash[:notice] = "Added Provider."
 			redirect_to :back
 		else
 			flash[:error] = @provider.errors.full_messages[0]
