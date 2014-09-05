@@ -9,9 +9,10 @@ $("time.timeago").timeago();
 clickyRows();
 
 refreshTable();
-
-if($.cookie()){
+if($.cookie().theme){
 	setTheme($.cookie().theme);
+}else{
+	setTheme('blue');
 }
 
 function themeChanger(){
@@ -141,7 +142,7 @@ function clearRow(room){
 }
 function refreshTable(){
 	compareDates();
-	var timer1 = setTimeout(refreshTable, 10000);
+	var timer1 = setTimeout(refreshTable, 30000);
 }
 
 //buttons.removeAttr('disabled');
