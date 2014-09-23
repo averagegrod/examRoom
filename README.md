@@ -27,7 +27,4 @@ This site will also store one local cookie to remember your theme which you can 
 
 <h3>Roadmap:</h3>
 
--Don't refresh the page if a user is actively updating a row.
--Add functionality to the Waiting Room area
 -Add the reload time to the settings page.
--Possibly change the name of the settings page to something more friendly.
