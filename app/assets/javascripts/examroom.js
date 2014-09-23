@@ -87,17 +87,17 @@ $("#rooms").on('change', function(){
 
 function updateRoom(room, patientName, staff, provider, comments, success){
 	$.ajax({
-			url: "/examroom/update_room",
-			type: "POST",
-			data: { room:room, patientName:patientName, staff:staff, provider:provider, comments:comments }
-		})
-		.success(function(){
-			showMessage(success);
-			compareDates();
-		})
-		.fail(function(jqXHR, textStatus){
-			showMessage("Error: " + textStatus);
-		});
+		url: "/examroom/update_room",
+		type: "POST",
+		data: { room:room, patientName:patientName, staff:staff, provider:provider, comments:comments }
+	})
+	.success(function(){
+		showMessage(success);
+		compareDates();
+	})
+	.fail(function(jqXHR, textStatus){
+		showMessage("Error: " + textStatus);
+	});
 }
 
 function showMessage(message){
@@ -141,7 +141,9 @@ function clearRow(room){
 
 }
 function refreshTable(){
-	compareDates();
+	if ( $('input:focus, textarea:focus').length == 0 ) {
+		compareDates();
+	}
 	var timer1 = setTimeout(refreshTable, 30000);
 }
 
