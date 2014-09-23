@@ -1,0 +1,3311 @@
+/* line 342, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-version {
+  font-family: "/5.4.2/";
+}
+
+/* line 346, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+/* line 351, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+/* line 356, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+/* line 361, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+/* line 366, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+/* line 371, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+/* line 378, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 383, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 388, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+html,
+body {
+  font-size: 100%;
+}
+
+/* line 391, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+body {
+  background: white;
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 150%;
+  position: relative;
+  cursor: auto;
+}
+
+/* line 404, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+a:hover {
+  cursor: pointer;
+}
+
+/* line 407, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 409, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 415, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 420, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.left {
+  float: left !important;
+}
+
+/* line 421, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.right {
+  float: right !important;
+}
+
+/* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 173, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 423, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.hide {
+  display: none;
+}
+
+/* line 429, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 432, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 442, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 445, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+select {
+  width: 100%;
+}
+
+/* line 218, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+/* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 173, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row:after {
+  clear: both;
+}
+/* line 223, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.row.collapse > .column,
+.row.collapse > .columns {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 225, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.row.collapse .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 228, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.row .row {
+  width: auto;
+  margin-left: -0.9375rem;
+  margin-right: -0.9375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+/* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table;
+}
+/* line 173, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row .row:after {
+  clear: both;
+}
+/* line 229, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+}
+/* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row .row.collapse:before, .row .row.collapse:after {
+  content: " ";
+  display: table;
+}
+/* line 173, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+.row .row.collapse:after {
+  clear: both;
+}
+
+/* line 234, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+.column,
+.columns {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+}
+
+/* line 236, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+[class*="column"] + [class*="column"]:last-child {
+  float: right;
+}
+
+/* line 237, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+[class*="column"] + [class*="column"].end {
+  float: left;
+}
+
+@media only screen {
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-0 {
+    position: relative;
+    left: 0%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 168, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-1 {
+    width: 8.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-2 {
+    width: 16.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-3 {
+    width: 25%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-4 {
+    width: 33.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-5 {
+    width: 41.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-6 {
+    width: 50%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-7 {
+    width: 58.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-8 {
+    width: 66.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-9 {
+    width: 75%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-10 {
+    width: 83.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-11 {
+    width: 91.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-12 {
+    width: 100%;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-0 {
+    margin-left: 0% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-1 {
+    margin-left: 8.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-2 {
+    margin-left: 16.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-3 {
+    margin-left: 25% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-4 {
+    margin-left: 33.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-5 {
+    margin-left: 41.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-6 {
+    margin-left: 50% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-7 {
+    margin-left: 58.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-8 {
+    margin-left: 66.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-9 {
+    margin-left: 75% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-10 {
+    margin-left: 83.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-offset-11 {
+    margin-left: 91.66667% !important;
+  }
+
+  /* line 180, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .small-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left;
+  }
+
+  /* line 189, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.small-centered,
+  .columns.small-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  /* line 192, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.small-uncentered,
+  .columns.small-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+
+  /* line 200, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.small-centered:last-child,
+  .columns.small-centered:last-child {
+    float: none;
+  }
+
+  /* line 206, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.small-uncentered:last-child,
+  .columns.small-uncentered:last-child {
+    float: left;
+  }
+
+  /* line 211, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.small-uncentered.opposite,
+  .columns.small-uncentered.opposite {
+    float: right;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-0 {
+    position: relative;
+    left: 0%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 168, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-1 {
+    width: 8.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-2 {
+    width: 16.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-3 {
+    width: 25%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-4 {
+    width: 33.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-5 {
+    width: 41.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-6 {
+    width: 50%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-7 {
+    width: 58.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-8 {
+    width: 66.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-9 {
+    width: 75%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-10 {
+    width: 83.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-11 {
+    width: 91.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-12 {
+    width: 100%;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-0 {
+    margin-left: 0% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-1 {
+    margin-left: 8.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-2 {
+    margin-left: 16.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-3 {
+    margin-left: 25% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-4 {
+    margin-left: 33.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-5 {
+    margin-left: 41.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-6 {
+    margin-left: 50% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-7 {
+    margin-left: 58.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-8 {
+    margin-left: 66.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-9 {
+    margin-left: 75% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-10 {
+    margin-left: 83.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-offset-11 {
+    margin-left: 91.66667% !important;
+  }
+
+  /* line 180, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .medium-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left;
+  }
+
+  /* line 189, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.medium-centered,
+  .columns.medium-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  /* line 192, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.medium-uncentered,
+  .columns.medium-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+
+  /* line 200, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.medium-centered:last-child,
+  .columns.medium-centered:last-child {
+    float: none;
+  }
+
+  /* line 206, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.medium-uncentered:last-child,
+  .columns.medium-uncentered:last-child {
+    float: left;
+  }
+
+  /* line 211, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.medium-uncentered.opposite,
+  .columns.medium-uncentered.opposite {
+    float: right;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-0 {
+    position: relative;
+    left: 0%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 247, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 250, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-0 {
+    position: relative;
+    left: 0%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 162, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+
+  /* line 168, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float: left;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-1 {
+    width: 8.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-2 {
+    width: 16.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-3 {
+    width: 25%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-4 {
+    width: 33.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-5 {
+    width: 41.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-6 {
+    width: 50%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-7 {
+    width: 58.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-8 {
+    width: 66.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-9 {
+    width: 75%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-10 {
+    width: 83.33333%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-11 {
+    width: 91.66667%;
+  }
+
+  /* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-12 {
+    width: 100%;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-0 {
+    margin-left: 0% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-1 {
+    margin-left: 8.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-2 {
+    margin-left: 16.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-3 {
+    margin-left: 25% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-4 {
+    margin-left: 33.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-5 {
+    margin-left: 41.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-6 {
+    margin-left: 50% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-7 {
+    margin-left: 58.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-8 {
+    margin-left: 66.66667% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-9 {
+    margin-left: 75% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-10 {
+    margin-left: 83.33333% !important;
+  }
+
+  /* line 178, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-offset-11 {
+    margin-left: 91.66667% !important;
+  }
+
+  /* line 180, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .large-reset-order {
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    float: left;
+  }
+
+  /* line 189, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  /* line 192, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.large-uncentered,
+  .columns.large-uncentered {
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+  }
+
+  /* line 200, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.large-centered:last-child,
+  .columns.large-centered:last-child {
+    float: none;
+  }
+
+  /* line 206, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.large-uncentered:last-child,
+  .columns.large-uncentered:last-child {
+    float: left;
+  }
+
+  /* line 211, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .column.large-uncentered.opposite,
+  .columns.large-uncentered.opposite {
+    float: right;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-0 {
+    position: relative;
+    left: 0%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-0 {
+    position: relative;
+    right: 0%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-1 {
+    position: relative;
+    left: 8.33333%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-1 {
+    position: relative;
+    right: 8.33333%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 258, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .push-11 {
+    position: relative;
+    left: 91.66667%;
+    right: auto;
+  }
+
+  /* line 261, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_grid.scss */
+  .pull-11 {
+    position: relative;
+    right: 91.66667%;
+    left: auto;
+  }
+}
+/* line 213, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button, .button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  transition: background-color 300ms ease-out;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button:hover, button:focus, .button:hover, .button:focus {
+  background-color: #007095;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button:hover, button:focus, .button:hover, .button:focus {
+  color: white;
+}
+/* line 220, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.secondary, .button.secondary {
+  background-color: #e7e7e7;
+  border-color: #b9b9b9;
+  color: #333333;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+  background-color: #b9b9b9;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
+  color: #333333;
+}
+/* line 221, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.success, .button.success {
+  background-color: #43ac6a;
+  border-color: #368a55;
+  color: white;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+  background-color: #368a55;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+  color: white;
+}
+/* line 222, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.alert, .button.alert {
+  background-color: #f04124;
+  border-color: #cf2a0e;
+  color: white;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+  background-color: #cf2a0e;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+  color: white;
+}
+/* line 224, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.large, .button.large {
+  padding-top: 1.125rem;
+  padding-right: 2.25rem;
+  padding-bottom: 1.1875rem;
+  padding-left: 2.25rem;
+  font-size: 1.25rem;
+}
+/* line 225, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.small, .button.small {
+  padding-top: 0.875rem;
+  padding-right: 1.75rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 1.75rem;
+  font-size: 0.8125rem;
+}
+/* line 226, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.tiny, .button.tiny {
+  padding-top: 0.625rem;
+  padding-right: 1.25rem;
+  padding-bottom: 0.6875rem;
+  padding-left: 1.25rem;
+  font-size: 0.6875rem;
+}
+/* line 227, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.expand, .button.expand {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+/* line 229, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.left-align, .button.left-align {
+  text-align: left;
+  text-indent: 0.75rem;
+}
+/* line 230, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.right-align, .button.right-align {
+  text-align: right;
+  padding-right: 0.75rem;
+}
+/* line 232, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.radius, .button.radius {
+  border-radius: 3px;
+}
+/* line 233, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.round, .button.round {
+  border-radius: 1000px;
+}
+/* line 235, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled, button[disabled], .button.disabled, .button[disabled] {
+  background-color: #008cba;
+  border-color: #007095;
+  color: white;
+  cursor: default;
+  opacity: 0.7;
+  box-shadow: none;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  background-color: #007095;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  color: white;
+}
+/* line 175, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+  background-color: #008cba;
+}
+/* line 236, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
+  background-color: #e7e7e7;
+  border-color: #b9b9b9;
+  color: #333333;
+  cursor: default;
+  opacity: 0.7;
+  box-shadow: none;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  background-color: #b9b9b9;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  color: #333333;
+}
+/* line 175, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
+  background-color: #e7e7e7;
+}
+/* line 237, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
+  background-color: #43ac6a;
+  border-color: #368a55;
+  color: white;
+  cursor: default;
+  opacity: 0.7;
+  box-shadow: none;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  background-color: #368a55;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  color: white;
+}
+/* line 175, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
+  background-color: #43ac6a;
+}
+/* line 238, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
+  background-color: #f04124;
+  border-color: #cf2a0e;
+  color: white;
+  cursor: default;
+  opacity: 0.7;
+  box-shadow: none;
+}
+/* line 158, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  background-color: #cf2a0e;
+}
+/* line 164, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  color: white;
+}
+/* line 175, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
+  background-color: #f04124;
+}
+
+/* line 243, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 246, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_buttons.scss */
+  button, .button {
+    display: inline-block;
+  }
+}
+/* Foundation Joyride */
+/* line 48, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-list {
+  display: none;
+}
+
+/* Default styles for the container */
+/* line 51, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide {
+  display: none;
+  position: absolute;
+  background: #333333;
+  color: white;
+  z-index: 101;
+  top: 0;
+  left: 2.5%;
+  font-family: inherit;
+  font-weight: normal;
+  width: 95%;
+}
+
+/* line 64, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.lt-ie9 .joyride-tip-guide {
+  max-width: 800px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+/* line 70, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-content-wrapper {
+  width: 100%;
+  padding: 1.125rem 1.25rem 1.5rem;
+}
+/* line 75, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-content-wrapper .button {
+  margin-bottom: 0 !important;
+}
+/* line 77, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-content-wrapper .joyride-prev-tip {
+  margin-right: 10px;
+}
+
+/* Add a little css triangle pip, older browser just miss out on the fanciness of it */
+/* line 82, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub {
+  display: block;
+  position: absolute;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border: 10px solid #333333;
+}
+/* line 90, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.top {
+  border-top-style: solid;
+  border-color: #333333;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  top: -20px;
+}
+/* line 98, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.bottom {
+  border-bottom-style: solid;
+  border-color: #333333 !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  bottom: -20px;
+}
+/* line 107, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.right {
+  right: -20px;
+}
+/* line 108, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide .joyride-nub.left {
+  left: -20px;
+}
+
+/* Typography */
+/* line 118, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide h1,
+.joyride-tip-guide h2,
+.joyride-tip-guide h3,
+.joyride-tip-guide h4,
+.joyride-tip-guide h5,
+.joyride-tip-guide h6 {
+  line-height: 1.25;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+/* line 124, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-tip-guide p {
+  margin: 0 0 1.125rem 0;
+  font-size: 0.875rem;
+  line-height: 1.3;
+}
+
+/* line 130, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-timer-indicator-wrap {
+  width: 50px;
+  height: 3px;
+  border: solid 1px #555555;
+  position: absolute;
+  right: 1.0625rem;
+  bottom: 1rem;
+}
+
+/* line 138, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-timer-indicator {
+  display: block;
+  width: 0;
+  height: inherit;
+  background: #666666;
+}
+
+/* line 145, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-close-tip {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  color: #777777 !important;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: .5 !important;
+}
+/* line 156, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-close-tip:hover, .joyride-close-tip:focus {
+  color: #eeeeee !important;
+}
+
+/* line 159, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+/* line 172, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-expose-wrapper {
+  background-color: white;
+  position: absolute;
+  border-radius: 3px;
+  z-index: 102;
+  box-shadow: 0 0 15px white;
+}
+
+/* line 180, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+.joyride-expose-cover {
+  background: transparent;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+/* Styles for screens that are at least 768px; */
+@media only screen and (min-width: 40.063em) {
+  /* line 192, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide {
+    width: 300px;
+    left: inherit;
+  }
+  /* line 194, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.bottom {
+    border-color: #333333 !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    bottom: -20px;
+  }
+  /* line 201, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.right {
+    border-color: #333333 !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    top: 22px;
+    left: auto;
+    right: -20px;
+  }
+  /* line 209, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_joyride.scss */
+  .joyride-tip-guide .joyride-nub.left {
+    border-color: #333333 !important;
+    border-top-color: transparent !important;
+    border-left-color: transparent !important;
+    border-bottom-color: transparent !important;
+    top: 22px;
+    left: -20px;
+    right: auto;
+  }
+}
+/* line 110, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  font-weight: normal;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding: 0.875rem 1.5rem 0.875rem 0.875rem;
+  font-size: 0.8125rem;
+  transition: opacity 300ms ease-out;
+  background-color: #008cba;
+  border-color: #0078a0;
+  color: white;
+}
+/* line 113, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box .close {
+  font-size: 1.375rem;
+  padding: 9px 6px 4px;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.6875rem;
+  right: 0.25rem;
+  color: #333333;
+  opacity: 0.3;
+}
+/* line 95, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box .close:hover, .alert-box .close:focus {
+  opacity: 0.5;
+}
+/* line 115, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.radius {
+  border-radius: 3px;
+}
+/* line 116, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.round {
+  border-radius: 1000px;
+}
+/* line 118, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.success {
+  background-color: #43ac6a;
+  border-color: #3a945b;
+  color: white;
+}
+/* line 119, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.alert {
+  background-color: #f04124;
+  border-color: #de2d0f;
+  color: white;
+}
+/* line 120, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.secondary {
+  background-color: #e7e7e7;
+  border-color: #c7c7c7;
+  color: #4f4f4f;
+}
+/* line 121, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.warning {
+  background-color: #f08a24;
+  border-color: #de770f;
+  color: white;
+}
+/* line 122, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.info {
+  background-color: #a0d3e8;
+  border-color: #74bfdd;
+  color: #4f4f4f;
+}
+/* line 123, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_alert-boxes.scss */
+.alert-box.alert-close {
+  opacity: 0;
+}
+
+/* Standard Forms */
+/* line 366, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form {
+  margin: 0 0 1rem;
+}
+
+/* Using forms within rows, we need to set some defaults */
+/* line 86, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .row {
+  margin: 0 -0.5rem;
+}
+/* line 89, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .row .column,
+form .row .row .columns {
+  padding: 0 0.5rem;
+}
+/* line 92, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .row.collapse {
+  margin: 0;
+}
+/* line 95, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .row.collapse .column,
+form .row .row.collapse .columns {
+  padding: 0;
+}
+/* line 96, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .row.collapse input {
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 105, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row input.column,
+form .row input.columns,
+form .row textarea.column,
+form .row textarea.columns {
+  padding-left: 0.5rem;
+}
+
+/* Label Styles */
+/* line 372, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+label {
+  font-size: 0.875rem;
+  color: #4d4d4d;
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+  /* Styles for required inputs */
+}
+/* line 373, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+label.right {
+  float: none !important;
+  text-align: right;
+}
+/* line 374, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+label.inline {
+  margin: 0 0 1rem 0;
+  padding: 0.5625rem 0;
+}
+/* line 376, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+label small {
+  text-transform: capitalize;
+  color: #676767;
+}
+
+/* line 382, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+select::-ms-expand {
+  display: none;
+}
+
+/* Attach elements to the beginning or end of an input */
+/* line 388, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.prefix,
+.postfix {
+  display: block;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  font-size: 0.875rem;
+  height: 2.3125rem;
+  line-height: 2.3125rem;
+}
+
+/* Adjust padding, alignment and radius if pre/post element is a button */
+/* line 391, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.postfix.button {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  line-height: 2.125rem;
+  border: none;
+}
+
+/* line 392, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.prefix.button {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  line-height: 2.125rem;
+  border: none;
+}
+
+/* line 394, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.prefix.button.radius {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+/* line 395, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.postfix.button.radius {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 396, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.prefix.button.round {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+
+/* line 397, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.postfix.button.round {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+
+/* Separate prefix and postfix styles when on span or label so buttons keep their own */
+/* line 400, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+span.prefix, label.prefix {
+  background: #f2f2f2;
+  border-right: none;
+  color: #333333;
+  border-color: #cccccc;
+}
+
+/* line 401, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+span.postfix, label.postfix {
+  background: #f2f2f2;
+  border-left: none;
+  color: #333333;
+  border-color: #cccccc;
+}
+
+/* We use this to get basic styling on all basic form elements */
+/* line 418, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  background-color: white;
+  font-family: inherit;
+  border: 1px solid #cccccc;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-size: 0.875rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  height: 2.3125rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+}
+/* line 185, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_global.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+  box-shadow: 0 0 5px #999999;
+  border-color: #999999;
+}
+/* line 128, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+  background: #fafafa;
+  border-color: #999999;
+  outline: none;
+}
+/* line 134, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="date"]:disabled,
+input[type="datetime"]:disabled,
+input[type="datetime-local"]:disabled,
+input[type="month"]:disabled,
+input[type="week"]:disabled,
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+input[type="search"]:disabled,
+input[type="tel"]:disabled,
+input[type="time"]:disabled,
+input[type="url"]:disabled,
+input[type="color"]:disabled,
+textarea:disabled {
+  background-color: #dddddd;
+  cursor: default;
+}
+/* line 142, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="text"][disabled], input[type="text"][readonly], fieldset[disabled] input[type="text"],
+input[type="password"][disabled],
+input[type="password"][readonly], fieldset[disabled]
+input[type="password"],
+input[type="date"][disabled],
+input[type="date"][readonly], fieldset[disabled]
+input[type="date"],
+input[type="datetime"][disabled],
+input[type="datetime"][readonly], fieldset[disabled]
+input[type="datetime"],
+input[type="datetime-local"][disabled],
+input[type="datetime-local"][readonly], fieldset[disabled]
+input[type="datetime-local"],
+input[type="month"][disabled],
+input[type="month"][readonly], fieldset[disabled]
+input[type="month"],
+input[type="week"][disabled],
+input[type="week"][readonly], fieldset[disabled]
+input[type="week"],
+input[type="email"][disabled],
+input[type="email"][readonly], fieldset[disabled]
+input[type="email"],
+input[type="number"][disabled],
+input[type="number"][readonly], fieldset[disabled]
+input[type="number"],
+input[type="search"][disabled],
+input[type="search"][readonly], fieldset[disabled]
+input[type="search"],
+input[type="tel"][disabled],
+input[type="tel"][readonly], fieldset[disabled]
+input[type="tel"],
+input[type="time"][disabled],
+input[type="time"][readonly], fieldset[disabled]
+input[type="time"],
+input[type="url"][disabled],
+input[type="url"][readonly], fieldset[disabled]
+input[type="url"],
+input[type="color"][disabled],
+input[type="color"][readonly], fieldset[disabled]
+input[type="color"],
+textarea[disabled],
+textarea[readonly], fieldset[disabled]
+textarea {
+  background-color: #dddddd;
+  cursor: default;
+}
+/* line 425, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="text"].radius,
+input[type="password"].radius,
+input[type="date"].radius,
+input[type="datetime"].radius,
+input[type="datetime-local"].radius,
+input[type="month"].radius,
+input[type="week"].radius,
+input[type="email"].radius,
+input[type="number"].radius,
+input[type="search"].radius,
+input[type="tel"].radius,
+input[type="time"].radius,
+input[type="url"].radius,
+input[type="color"].radius,
+textarea.radius {
+  border-radius: 3px;
+}
+
+/* line 435, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .prefix-radius.row.collapse input,
+form .row .prefix-radius.row.collapse textarea,
+form .row .prefix-radius.row.collapse select {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 436, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .prefix-radius.row.collapse .prefix {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 441, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .postfix-radius.row.collapse input,
+form .row .postfix-radius.row.collapse textarea,
+form .row .postfix-radius.row.collapse select {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+/* line 442, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .postfix-radius.row.collapse .postfix {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 447, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .prefix-round.row.collapse input,
+form .row .prefix-round.row.collapse textarea,
+form .row .prefix-round.row.collapse select {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+/* line 448, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .prefix-round.row.collapse .prefix {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+/* line 453, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .postfix-round.row.collapse input,
+form .row .postfix-round.row.collapse textarea,
+form .row .postfix-round.row.collapse select {
+  border-radius: 0;
+  -webkit-border-bottom-left-radius: 1000px;
+  -webkit-border-top-left-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+  border-top-left-radius: 1000px;
+}
+/* line 454, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+form .row .postfix-round.row.collapse .postfix {
+  border-radius: 0;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-top-right-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+
+/* line 459, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="submit"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+/* Respect enforced amount of rows for textarea */
+/* line 465, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+textarea[rows] {
+  height: auto;
+}
+
+/* Add height value for select elements to match text input height */
+/* line 470, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+select {
+  -webkit-appearance: none !important;
+  -webkit-border-radius: 0px;
+  background-color: #fafafa;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  border: 1px solid #cccccc;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: normal;
+  border-radius: 0;
+  height: 2.3125rem;
+}
+/* line 339, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+select.radius {
+  border-radius: 3px;
+}
+/* line 340, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+select:hover {
+  background-color: #f3f3f3;
+  border-color: #999999;
+}
+/* line 345, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+select:disabled {
+  background-color: #dddddd;
+  cursor: default;
+}
+
+/* Adjust margin for form elements below */
+/* line 479, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+  margin: 0 0 1rem 0;
+}
+
+/* line 484, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  vertical-align: baseline;
+}
+
+/* Normalize file input width */
+/* line 493, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input[type="file"] {
+  width: 100%;
+}
+
+/* HTML5 Number spinners settings */
+/* We add basic fieldset styling */
+/* line 507, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+fieldset {
+  border: 1px solid #dddddd;
+  padding: 1.25rem;
+  margin: 1.125rem 0;
+}
+/* line 269, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+fieldset legend {
+  font-weight: bold;
+  background: white;
+  padding: 0 0.1875rem;
+  margin: 0;
+  margin-left: -0.1875rem;
+}
+
+/* Error Handling */
+/* line 514, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+  display: block;
+  padding: 0.375rem 0.5625rem 0.5625rem;
+  margin-top: -1px;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: italic;
+  background: #f04124;
+  color: white;
+}
+/* line 517, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+[data-abide] span.error, [data-abide] small.error {
+  display: none;
+}
+
+/* line 520, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+span.error, small.error {
+  display: block;
+  padding: 0.375rem 0.5625rem 0.5625rem;
+  margin-top: -1px;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: italic;
+  background: #f04124;
+  color: white;
+}
+
+/* line 527, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error input,
+.error textarea,
+.error select {
+  margin-bottom: 0;
+}
+/* line 532, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error input[type="checkbox"],
+.error input[type="radio"] {
+  margin-bottom: 1rem;
+}
+/* line 537, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error label,
+.error label.error {
+  color: #f04124;
+}
+/* line 541, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error small.error {
+  display: block;
+  padding: 0.375rem 0.5625rem 0.5625rem;
+  margin-top: -1px;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: italic;
+  background: #f04124;
+  color: white;
+}
+/* line 546, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error > label > small {
+  color: #676767;
+  background: transparent;
+  padding: 0;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 60%;
+  margin: 0;
+  display: inline;
+}
+/* line 558, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+.error span.error-message {
+  display: block;
+}
+
+/* line 565, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+input.error,
+textarea.error,
+select.error {
+  margin-bottom: 0;
+}
+
+/* line 568, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/foundation-rails-5.4.3.0/vendor/assets/stylesheets/foundation/components/_forms.scss */
+label.error {
+  color: #f04124;
+}
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-default {
+  background-color: #cccccc;
+  background-color: #cccccc;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-default-dark {
+  background-color: #a3a3a3;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-default-text {
+  color: #a3a3a3;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-default-row {
+  background: #fcfcfc;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-default {
+  color: #a3a3a3;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-default:focus {
+  border: 1px solid #cccccc;
+  color: #a3a3a3;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-default {
+  color: #a3a3a3;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-default:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #cccccc;
+  color: #a3a3a3;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-default {
+  color: #a3a3a3;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-default:focus {
+  border: 1px solid #cccccc;
+  color: #a3a3a3;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='default'] {
+  background: #cccccc;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='default']:hover {
+  background: #a3a3a3;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='default'][disabled] {
+  background: #cccccc;
+  border: 1px solid #a3a3a3;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='default'][disabled]:hover {
+  background: #cccccc;
+}
+
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-yellow {
+  background-color: #f4d03f;
+  background-color: #f4d03f;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-yellow-dark {
+  background-color: #c3a632;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-yellow-text {
+  color: #c3a632;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-yellow-row {
+  background: #fefcf5;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-yellow {
+  color: #c3a632;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-yellow:focus {
+  border: 1px solid #f4d03f;
+  color: #c3a632;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-yellow {
+  color: #c3a632;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-yellow:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #f4d03f;
+  color: #c3a632;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-yellow {
+  color: #c3a632;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-yellow:focus {
+  border: 1px solid #f4d03f;
+  color: #c3a632;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='yellow'] {
+  background: #f4d03f;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='yellow']:hover {
+  background: #c3a632;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='yellow'][disabled] {
+  background: #f4d03f;
+  border: 1px solid #c3a632;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='yellow'][disabled]:hover {
+  background: #f4d03f;
+}
+
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-red {
+  background-color: #ef4836;
+  background-color: #ef4836;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-red-dark {
+  background-color: #bf392b;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-red-text {
+  color: #bf392b;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-red-row {
+  background: #fef5f4;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-red {
+  color: #bf392b;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-red:focus {
+  border: 1px solid #ef4836;
+  color: #bf392b;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-red {
+  color: #bf392b;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-red:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #ef4836;
+  color: #bf392b;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-red {
+  color: #bf392b;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-red:focus {
+  border: 1px solid #ef4836;
+  color: #bf392b;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='red'] {
+  background: #ef4836;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='red']:hover {
+  background: #bf392b;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='red'][disabled] {
+  background: #ef4836;
+  border: 1px solid #bf392b;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='red'][disabled]:hover {
+  background: #ef4836;
+}
+
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-blue {
+  background-color: #22a7f0;
+  background-color: #22a7f0;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-blue-dark {
+  background-color: #1b85c0;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-blue-text {
+  color: #1b85c0;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-blue-row {
+  background: #f3fafe;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-blue {
+  color: #1b85c0;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-blue:focus {
+  border: 1px solid #22a7f0;
+  color: #1b85c0;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-blue {
+  color: #1b85c0;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-blue:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #22a7f0;
+  color: #1b85c0;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-blue {
+  color: #1b85c0;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-blue:focus {
+  border: 1px solid #22a7f0;
+  color: #1b85c0;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='blue'] {
+  background: #22a7f0;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='blue']:hover {
+  background: #1b85c0;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='blue'][disabled] {
+  background: #22a7f0;
+  border: 1px solid #1b85c0;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='blue'][disabled]:hover {
+  background: #22a7f0;
+}
+
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-green {
+  background-color: #2ecc71;
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-green-dark {
+  background-color: #24a35a;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-green-text {
+  color: #24a35a;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-green-row {
+  background: #f4fcf7;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-green {
+  color: #24a35a;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-green:focus {
+  border: 1px solid #2ecc71;
+  color: #24a35a;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-green {
+  color: #24a35a;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-green:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #2ecc71;
+  color: #24a35a;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-green {
+  color: #24a35a;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-green:focus {
+  border: 1px solid #2ecc71;
+  color: #24a35a;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='green'] {
+  background: #2ecc71;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='green']:hover {
+  background: #24a35a;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='green'][disabled] {
+  background: #2ecc71;
+  border: 1px solid #24a35a;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='green'][disabled]:hover {
+  background: #2ecc71;
+}
+
+/* line 17, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-purple {
+  background-color: #9b59b6;
+  background-color: #9b59b6;
+  color: white;
+}
+
+/* line 22, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-purple-dark {
+  background-color: #7c4791;
+  color: white;
+}
+
+/* line 27, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-purple-text {
+  color: #7c4791;
+}
+
+/* line 31, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.theme-purple-row {
+  background: #faf6fb;
+}
+
+/* line 36, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-purple {
+  color: #7c4791;
+}
+/* line 38, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.form-purple:focus {
+  border: 1px solid #9b59b6;
+  color: #7c4791;
+  outline: none;
+}
+
+/* line 45, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-purple {
+  color: #7c4791;
+  border: none;
+}
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.select-purple:focus {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+  appearance: menulist;
+  border: 1px solid #9b59b6;
+  color: #7c4791;
+  outline: none;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-purple {
+  color: #7c4791;
+  border: none;
+}
+/* line 59, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+.text-purple:focus {
+  border: 1px solid #9b59b6;
+  color: #7c4791;
+  outline: none;
+}
+
+/* line 67, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='purple'] {
+  background: #9b59b6;
+}
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='purple']:hover {
+  background: #7c4791;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+/* line 75, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='purple'][disabled] {
+  background: #9b59b6;
+  border: 1px solid #7c4791;
+}
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/color.scss */
+[data-theme='purple'][disabled]:hover {
+  background: #9b59b6;
+}
+
+/* line 3, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+body {
+  font-family: 'Source Sans Pro','Open Sans',Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+/* line 9, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 14, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.instructions {
+  text-align: center;
+}
+
+/* line 18, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.date:hover span {
+  display: none;
+}
+
+/* line 21, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.date:hover:before {
+  content: "Click to clear row";
+}
+
+/* line 24, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+table {
+  background: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* line 30, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.controls > button {
+  border: none;
+  border-radius: .15em;
+  margin-bottom: .5em;
+  padding: .5em;
+}
+
+/* line 37, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+th {
+  font-size: 2rem;
+  font-weight: 300;
+  padding: .5rem 0;
+}
+
+/* line 43, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+tr {
+  height: 3rem;
+}
+
+/* line 48, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.roomLinks a {
+  margin-left: 10px;
+  padding: 10px;
+}
+/* line 51, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.roomLinks a:hover {
+  color: #EEE;
+}
+
+/* line 56, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  width: 110px;
+}
+
+/* line 62, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+textarea {
+  width: 100%;
+}
+
+/* line 66, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.room {
+  text-align: center;
+}
+
+/* line 70, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+.comments {
+  text-align: left;
+}
+
+/* line 74, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+select::-ms-expand {
+  display: none;
+}
+
+/* line 78, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+ul {
+  background: white;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4px;
+}
+
+/* line 85, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+li {
+  text-indent: 10px;
+}
+
+/* line 10, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -75px;
+}
+/* line 18, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#root #root_footer {
+  height: 75px;
+}
+
+/* line 20, C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+#footer {
+  clear: both;
+  position: relative;
+  height: 75px;
+}
+
+/* line 91, C:/xampp/htdocs/examRoom/app/assets/stylesheets/screen.scss */
+#footer {
+  border-top: 1px solid #CCC;
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
