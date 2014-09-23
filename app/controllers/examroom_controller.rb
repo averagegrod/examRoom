@@ -4,6 +4,7 @@ class ExamroomController < ApplicationController
 		@providers = Provider.all
 		@mas = Ma.all
 		@rooms = Examroom.all
+		@waitingRoom = WaitingRoom.first
 	end
 
 	def set_rooms
