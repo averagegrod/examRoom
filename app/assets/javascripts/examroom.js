@@ -140,9 +140,24 @@ function clearRow(room){
 	updateRoom(room, patientName, staff, provider, comments, success);
 
 }
+
+function updateWaitingRoom(){
+	$.ajax({
+		url: "/examroom/update_waiting_room",
+		type: "POST"
+	})
+	.success(function(data){
+		$('#waitingRoom').val(data);
+	})
+	.fail(function(jqXHR, textStatus){
+		showMessage(" Update Waiting Room Error: " + textStatus);
+	});
+}
+
 function refreshTable(){
-	if ( $('input:focus, textarea:focus').length == 0 ) {
+	if ( $('input:focus, textarea:focus').length === 0 ) {
 		compareDates();
+		updateWaitingRoom();
 	}
 	var timer1 = setTimeout(refreshTable, 30000);
 }

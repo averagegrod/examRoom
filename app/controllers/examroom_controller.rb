@@ -42,4 +42,9 @@ class ExamroomController < ApplicationController
 		dates = params[:rooms]
 		render :json => updated_rooms, status: :ok
 	end
+
+	def update_waiting_room
+		updated_comments = WaitingRoom.first.comments
+		render :text => updated_comments, status: :ok
+	end
 end
