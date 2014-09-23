@@ -4,7 +4,7 @@ Rails.application.routes.draw do
  resources :examroom
  
  root 'examroom#show'
- get 'settings/show'
+ get 'settings' => 'settings#show'
  post 'examroom/set_rooms'
  post 'examroom/update_room'
  post 'examroom/update_all'
