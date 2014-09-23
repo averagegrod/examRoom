@@ -47,4 +47,18 @@ class ExamroomController < ApplicationController
 		updated_comments = WaitingRoom.first.comments
 		render :text => updated_comments, status: :ok
 	end
+
+	def edit_waiting_room
+		room = WaitingRoom.first
+		room.comments = params[:comments]
+		room.save
+
+	if room.save
+			render :nothing => true, status: :ok			
+		else
+
+			render :nothing => true, status: :gone
+			
+		end 
+	end
 end

@@ -85,6 +85,21 @@ $("#rooms").on('change', function(){
 	});
 });
 
+$("#waitingRoom_btn").click(function(){
+	comments = $("#waitingRoom").val();
+	$.ajax({
+		url: "/examroom/edit_waiting_room",
+		type: "POST",
+		data: { comments:comments }
+	})
+	.success(function(){
+		showMessage("Waiting Room Updated.");
+	})
+	.fail(function(jqXHR, textStatus){
+		showMessage("Error: " + textStatus);
+	});
+});
+
 function updateRoom(room, patientName, staff, provider, comments, success){
 	$.ajax({
 		url: "/examroom/update_room",

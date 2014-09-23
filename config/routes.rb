@@ -9,6 +9,7 @@ Rails.application.routes.draw do
  post 'examroom/update_room'
  post 'examroom/update_all'
  post 'examroom/update_waiting_room'
+ post 'examroom/edit_waiting_room'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
