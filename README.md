@@ -8,9 +8,10 @@ Feel free to download, try this out, and even build on it. You are ABSOLUTLY NOT
 <h2>Instructions</h2>
 `git clone` this repo
 `rake db migrate`
+`rake db:seed`
 `rails s`
 
-Visit `localhost:3000/settings/show` to set up your Office. 
+Visit `localhost:3000/settings` to set up your Office. 
 Set the number of patient rooms on the left.
 Enter a name and Click Add to add Providers and Staff to your office. Click on a name to delete them. Once you've set this up visit `localhost:3000` to view your office.
 The app will refresh itself every 30 seconds. You can change this on line 145 of `app\assets\javascripts\application.js` by editing the ms.
@@ -20,6 +21,8 @@ The app will refresh itself every 30 seconds. You can change this on line 145 of
 Enter a Patient's Name (or initials), select the MA, Provider, enter any comments pertaining to their visit, and click on the room number to save the room.
 
 Click on the time for any room to clear that room.
+
+Enter text into the Waiting Room area and click the Update button to update the text with notes.
 
 View the [Live Demo](http://examroom.herokuapp.com/) or play with the [settings](http://examroom.herokuapp.com/settings/show). This is hosted free on [Heroku](https://www.heroku.com/) so it may take a minute to load up. 
 
