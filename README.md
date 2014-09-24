@@ -11,6 +11,8 @@ Feel free to download, try this out, and even build on it. You are ABSOLUTLY NOT
 `rake db:seed`
 `rails s`
 
+If you are deploying to Heroku don't forget to run both db updates. If you can access the /settings page but the home page throws an error you probably forgot to run the seed.
+
 Visit `localhost:3000/settings` to set up your Office. 
 Set the number of patient rooms on the left.
 Enter a name and Click Add to add Providers and Staff to your office. Click on a name to delete them. Once you've set this up visit `localhost:3000` to view your office.
