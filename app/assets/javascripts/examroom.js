@@ -162,7 +162,15 @@ function updateWaitingRoom(){
 		type: "POST"
 	})
 	.success(function(data){
-		$('#waitingRoom').val(data);
+		currentText = $('#waitingRoom').val();
+		if( currentText != data){
+			$.titleAlert("Waiting Room Updated", {
+				stopOnFocus:true,
+				duration:0,
+				interval:500
+			});
+			$('#waitingRoom').val(data);
+		}
 	})
 	.fail(function(jqXHR, textStatus){
 		showMessage(" Update Waiting Room Error: " + textStatus);

@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery.cookie.js
 //= require timeago.js
+//= require jquery.titlealert.js
 //= require_tree .
 //= require foundation
 
