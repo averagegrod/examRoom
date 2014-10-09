@@ -15,6 +15,8 @@
 //= require jquery.cookie.js
 //= require timeago.js
 //= require jquery.titlealert.js
+//= require jquery-readyselector.js
+//= require zeroclipboard
 //= require_tree .
 //= require foundation
 

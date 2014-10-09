@@ -12,6 +12,7 @@ end
 gem 'sass-rails', '~> 4.0.3'
 gem 'compass-rails'
 gem 'foundation-rails'
+gem 'zeroclipboard-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -45,6 +46,6 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 group :production do
-  gem 'pg', '0.15.1'
+  #gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end

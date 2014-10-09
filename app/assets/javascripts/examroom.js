@@ -3,37 +3,47 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 */
+$(".examroom.show, .settings.show").ready(function() {
+	themeChanger();
+	$("time.timeago").timeago();
+	clickyRows();
 
-themeChanger();
-$("time.timeago").timeago();
-clickyRows();
+	refreshTable();
+	if($.cookie().theme){
+		setTheme($.cookie().theme);
+	}else{
+		setTheme('blue');
+	}
 
-refreshTable();
-if($.cookie().theme){
-	setTheme($.cookie().theme);
-}else{
-	setTheme('blue');
-}
-
-function themeChanger(){
-	var buttons = $('.controls > button');
-	buttons.on('click', function(){
-		theme = $(this).data('theme');
-		console.log(theme);
-		setTheme(theme);
+	$("#refresh_btn").click(function(){
+		window.location.reload();
 	});
-}
 
-function setTheme(theme){
-	$.cookie('theme', theme, {expires: 30, path: '/'});
-	$("#root, #footer").removeClass().addClass('theme-' + theme);
-	$("tbody").removeClass().addClass('theme-' + theme + '-text');
-	$("th, tfoot, .roomLinks a").removeClass().addClass('theme-' + theme + '-dark');
-	$("textarea, input, li").removeClass().addClass('text-' + theme);
-	$("select").removeClass().addClass('select-' + theme);
-	$("li:even, tr:even, input:odd, input:last, tr:even>td>select, tr:even>td>textarea").removeClass().addClass('theme-' + theme + '-row').addClass('text-' + theme);
-	$("button[disabled=disabled").removeAttr('disabled');
-	//console.log(event);
+	$(".moveable").mousedown(function(){
+		$(this).addClass("moving");
+	});
+
+	$(".moveable").mouseup(function(){
+		$(this).removeClass("moving");
+	});
+
+	function themeChanger(){
+		var buttons = $('.controls > button');
+		buttons.on('click', function(){
+			theme = $(this).data('theme');
+			setTheme(theme);
+		});
+	}
+
+	function setTheme(theme){
+		$.cookie('theme', theme, {expires: 30, path: '/'});
+		$("#root, #footer").removeClass().addClass('theme-' + theme);
+		$("tbody").removeClass().addClass('theme-' + theme + '-text');
+		$("th, tfoot, .roomLinks a").removeClass().addClass('theme-' + theme + '-dark');
+		$("textarea, input, li").removeClass().addClass('text-' + theme);
+		$("select").removeClass().addClass('select-' + theme);
+		$("li:even, tr:even, input:odd, input:last, tr:even>td>select, tr:even>td>textarea").removeClass().addClass('theme-' + theme + '-row').addClass('text-' + theme);
+		$("button[disabled=disabled").removeAttr('disabled');
 	$("button[data-theme=" + theme).attr('disabled', true);
 	$("[data-button='button']").addClass('button, postfix');
 }
@@ -148,10 +158,8 @@ function compareDates(){
 }
 
 function clearRow(room){
-	console.log(room);
 	patientName = staff = provider = comments = "";
 	success = "Cleared room:" + room;
-	console.log(staff);
 	updateRoom(room, patientName, staff, provider, comments, success);
 
 }
@@ -185,5 +193,4 @@ function refreshTable(){
 	var timer1 = setTimeout(refreshTable, 30000);
 }
 
-//buttons.removeAttr('disabled');
-//		$(this).attr('disabled', true);
+});

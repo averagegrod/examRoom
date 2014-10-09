@@ -72,7 +72,7 @@ textarea{
 }
 
 select::-ms-expand {
-    display: none;
+	display: none;
 }
 
 ul{
@@ -84,6 +84,35 @@ ul{
 
 li {
 	text-indent: 10px;
+}
+
+#providerList, #maList{
+	& li {
+		&:hover{
+			& .moveable{
+				visibility: visible;
+				&:hover{
+					cursor: -webkit-grab;
+					cursor: -moz-grab;
+					cursor: url(https://mail.google.com/mail/images/2/openhand.cur), move;
+
+				}
+			}
+			& .moving{
+				&:hover{
+					cursor: -webkit-grabbing;
+					cursor: -moz-grabbing;
+					cursor: url(https://mail.google.com/mail/images/2/closedhand.cur), move;
+				}
+			}
+		}
+	}
+}
+
+.moveable{
+	float:right;
+	margin-right: 10px;
+	visibility: hidden;
 }
 
 @include sticky-footer(75px);

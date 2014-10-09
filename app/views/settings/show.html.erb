@@ -23,6 +23,7 @@
 			<% @providers.each do |provider| %>
 			<li>
 				<%= link_to provider.name, provider, method: :delete %>
+				<span class="moveable"><i class="fa fa-bars"></i></span>
 			</li>
 			<% end %>
 		</ul>
@@ -46,6 +47,7 @@
 			<% @mas.each do |ma| %>
 			<li>
 				<%= link_to ma.name, ma, method: :delete %>
+				<span class="moveable"><i class="fa fa-bars"></i></span>
 			</li>
 			<% end %>
 		</ul>

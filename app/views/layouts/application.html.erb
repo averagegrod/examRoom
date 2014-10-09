@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <title><%= content_for?(:title) ? yield(:title) : "AOI Exam Room" %></title>
 
@@ -19,7 +20,7 @@
         <%= render "layouts/messages" %>
       </div>
     </div>
-    <%= render "layouts/footer" %>
+    <%= render "layouts/footer" unless @skip_footer %>
     <%= javascript_include_tag "application" %>
   </div>
 </body>

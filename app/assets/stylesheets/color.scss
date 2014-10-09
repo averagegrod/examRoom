@@ -4,13 +4,17 @@ yellow #F4D03F,
 red #EF4836,
 blue #22A7F0,
 green #2ECC71,
-purple #9B59B6;
+purple #9B59B6,
+pink #F9B4FF;
 
 @each $theme in $themes {
 
   $name: nth($theme, 1);
   $color: nth($theme, 2);
   $secondary: shade($color, 20%);
+  @if $theme is "pink"{
+    $secondary: tint($color, 20%);
+  }
   $contrasted-light-default: white;
   $contrasted-lightness-threshold: 90%;
   
