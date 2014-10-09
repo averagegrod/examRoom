@@ -1,1 +1,17 @@
 <h1><%= @template.name %></h1>
+
+<% if @template.questions.any? %>
+	<form>
+
+		<% @questions.each do |question| %>
+		<p>
+			<label><%= question.content %></label>
+			<input type="text">
+		</p>
+
+	<% end %>
+
+	<button id="copy-button">Build HPI</button>
+	</form>     
+
+<% end %>

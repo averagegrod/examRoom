@@ -1,0 +1,8 @@
+<h1>New Template</h1>
+<%= form_for(@template) do |f| %>
+<%= render 'errorMessages' %>
+<%= f.label :name %>	
+<%= f.text_field :name %>
+
+<%= f.submit "Create new Template", class: "button"  %>
+<% end %>
