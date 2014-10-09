@@ -1,10 +1,12 @@
 class TemplatesController < ApplicationController
 	before_filter :skip_footer
 	
-	def show
+	def index
+		@templates = Template.all
 	end
 
-	def ankleFollowUp
+	def show
+		@template = Template.find(params[:id])
 	end
 
 	def skip_footer

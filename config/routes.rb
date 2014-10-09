@@ -2,6 +2,7 @@ Rails.application.routes.draw do
  resources :providers, only: [:create, :destroy]
  resources :mas, only: [:create, :destroy]
  resources :examroom
+ resources :templates
  
  root 'examroom#show'
  get 'settings' => 'settings#show'
@@ -11,8 +12,6 @@ Rails.application.routes.draw do
  post 'examroom/update_waiting_room'
  post 'examroom/edit_waiting_room'
 
- get 'templates' => 'templates#show'
- get 'templates/ankleFollowUp'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
