@@ -1,0 +1,15 @@
+<h1><%= @template.name %></h1>
+
+<% if @template.questions.any? %>
+	<form>
+
+		<% @questions.each do |question| %>
+		<p><%= question.content %></p>
+
+	<% end %>
+
+	</form>     
+
+<% end %>
+<%= link_to "delete", @template, method: :delete,
+                                  data: { confirm: "You sure?" }, class:"button alert" %>

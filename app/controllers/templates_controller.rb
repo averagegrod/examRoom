@@ -23,6 +23,21 @@ class TemplatesController < ApplicationController
 		end
 	end
 
+	def settings
+		@templates = Template.all
+	end
+
+	def edit
+		@template = Template.find(params[:id])
+		@questions = @template.questions
+	end
+
+	def destroy
+		Template.find(params[:id]).destroy
+		flash[:success] = "Template deleted."
+		redirect_to templates_path
+	end
+
 	def skip_footer
 		@skip_footer = true	
 	end

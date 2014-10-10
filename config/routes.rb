@@ -11,6 +11,7 @@ Rails.application.routes.draw do
  post 'examroom/update_all'
  post 'examroom/update_waiting_room'
  post 'examroom/edit_waiting_room'
+ get 'template/settings' => 'templates#settings'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

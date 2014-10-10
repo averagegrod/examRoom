@@ -1,0 +1,9 @@
+<h3>HPI Templates</h3>
+<ul>
+	
+	<% @templates.each do |template| %>
+	<li>
+		<%= link_to template.name, edit_template_path(template.id) %>
+	</li>
+	<% end %>
+</ul>
