@@ -2,8 +2,9 @@ Rails.application.routes.draw do
  resources :providers, only: [:create, :destroy]
  resources :mas, only: [:create, :destroy]
  resources :examroom
- resources :templates
- 
+ resources :templates do
+  resources :questions
+ end
  root 'examroom#show'
  get 'settings' => 'settings#show'
  post 'examroom/set_rooms'

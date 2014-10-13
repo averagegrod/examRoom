@@ -17,7 +17,7 @@ class TemplatesController < ApplicationController
 	def create
 		@template = Template.new(template_params)
 		if @template.save
-			redirect_to @template
+			redirect_to edit_template_path @template.id
 		else
 			render 'new'
 		end
@@ -30,11 +30,12 @@ class TemplatesController < ApplicationController
 	def edit
 		@template = Template.find(params[:id])
 		@questions = @template.questions
+		@question = QuestionsController#new
 	end
 
 	def destroy
 		Template.find(params[:id]).destroy
-		flash[:success] = "Template deleted."
+		flash[:notice] = "Template deleted."
 		redirect_to templates_path
 	end
 

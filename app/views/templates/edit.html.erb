@@ -1,6 +1,6 @@
 <div class="row">
 
-	<h1><%= @template.name %></h1>
+	<h1>Edit <%= @template.name %> Template</h1>
 
 	<% if @template.questions.any? %>
 	<form>
@@ -13,6 +13,15 @@
 	</form>     
 
 	<% end %>
-	<%= link_to "delete", @template, method: :delete,
-	data: { confirm: "You sure?" }, class:"button alert" %>
+
+	<%= form_for([@template, @template.questions.build]) do |f| %>
+	<%= render 'errorMessages' %>
+	<%= f.label :content, "New Template Question:"  %>	
+	<%= f.text_field :content %>
+
+	<%= f.submit "Add to Template", class: "button"  %>
+	<% end %>
+
+	<%= link_to "Delete Template", @template, method: :delete,
+	data: { confirm: "Are you sure you want to delete this template?" }, class:"button alert" %>
 </div>
