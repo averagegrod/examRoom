@@ -6,7 +6,10 @@
 	<form>
 
 		<% @questions.each do |question| %>
-		<p><%= question.content %></p>
+		<p>
+			<label><%= question.content %></label>
+			<input type="text" class="answer">
+		</p>
 
 		<% end %>
 
@@ -14,13 +17,12 @@
 	</form>
 
 	<% else %>  
-		<h3>Add some questions to this Template.</h3>
-		<%= link_to "Edit this Template", edit_template_path %> | 
+	<h3>Add some questions to this Template.</h3>
+	<%= link_to "Edit this Template", edit_template_path %> | 
 	<% end %>
 
 	<%= link_to "Template List", templates_path %>
 </div>
 
 <div id="myModal" class="reveal-modal" data-reveal>
-	<a class="close-reveal-modal">&#215;</a>
 </div>

@@ -5,6 +5,7 @@ $(".templates").ready(function() {
 		//var w = window.open();
 		var clipboard = event.clipboardData;
 		var text = '';
+		var modalCloseButton ="<a class='close-reveal-modal'>&#215;</a>";
 
 		$('form p').children().each(function(){
 			if($(this).is('label')){
@@ -14,10 +15,9 @@ $(".templates").ready(function() {
 			}
 		});
 		var modalText = text.replace("\n", "<br />");
-
 		clipboard.setData( "text/plain", text);
 		clipboard.setData( "text/html", modalText);
-		$("#myModal").html("Template Created!</br>Right click and Paste or CTRL+V to insert into HPI</br>" + modalText);
+		$("#myModal").html("Template Created!</br>Right click and Paste or CTRL+V to insert into HPI</br>" + modalText + modalCloseButton);
 
 	});
 
