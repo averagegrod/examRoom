@@ -1,6 +1,8 @@
-<h1><%= @template.name %></h1>
+<div class="row">
 
-<% if @template.questions.any? %>
+	<h1><%= @template.name %></h1>
+
+	<% if @template.questions.any? %>
 	<form>
 
 		<% @questions.each do |question| %>
@@ -9,11 +11,16 @@
 			<input type="text">
 		</p>
 
-	<% end %>
+		<% end %>
 
-	<button id="copy-button">Build HPI</button>
+		<button id="copy-button" data-reveal-id="myModal">Build HPI</button>
 	</form>     
 
-<% end %>
+	<% end %>
 
-<%= link_to "Template List", templates_path %>
+	<%= link_to "Template List", templates_path %>
+</div>
+
+<div id="myModal" class="reveal-modal" data-reveal>
+	<a class="close-reveal-modal">&#215;</a>
+</div>

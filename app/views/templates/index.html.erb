@@ -1,15 +1,18 @@
-<h3>HPI Templates</h3>
-<ul>
-	
-	<% @templates.each do |template| %>
-	<li>
-		<%= link_to template.name, template_path(template.id) %>
-	</li>
-	<% end %>
-</ul>
+<div class="row">
 
-<form method="get" action=<%= new_template_path %>>
-	<button>New Template</button>
-</form>
-<%= link_to "Edit Templates", template_settings_path, class:"button success" %>
+	<h3>HPI Templates</h3>
+	<ul>
+		
+		<% @templates.each do |template| %>
+		<li>
+			<%= link_to template.name, template_path(template.id) %>
+		</li>
+		<% end %>
+	</ul>
 
+	<form method="get" action=<%= new_template_path %>>
+		<button>New Template</button>
+	</form>
+	<%= link_to "Edit Templates", template_settings_path, class:"button success" %>
+
+</div>
