@@ -11,6 +11,12 @@ class QuestionsController < ApplicationController
 		end
 	end
 
+	def destroy
+		Question.find(params[:id]).destroy
+		flash[:notice] = "Question deleted."
+		redirect_to edit_template_path(params[:template_id])
+	end
+
 	def question_params
 		params.require(:question).permit(:content)
 	end

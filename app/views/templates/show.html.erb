@@ -6,16 +6,16 @@
 	<form>
 
 		<% @questions.each do |question| %>
-		<p>
-			<label><%= question.content %></label>
-			<input type="text">
-		</p>
+		<p><%= question.content %></p>
 
 		<% end %>
 
 		<button id="copy-button" data-reveal-id="myModal">Build HPI</button>
-	</form>     
+	</form>
 
+	<% else %>  
+		<h3>Add some questions to this Template.</h3>
+		<%= link_to "Edit this Template", edit_template_path %> | 
 	<% end %>
 
 	<%= link_to "Template List", templates_path %>

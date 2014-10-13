@@ -13,6 +13,8 @@
 	<form method="get" action=<%= new_template_path %>>
 		<button>New Template</button>
 	</form>
-	<%= link_to "Edit Templates", template_settings_path, class:"button success" %>
+	<form method="get" action=<%= template_settings_path %>>
+		<button class="success">Edit Template</button>
+	</form>
 
 </div>

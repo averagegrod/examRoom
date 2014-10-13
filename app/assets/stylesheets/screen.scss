@@ -11,6 +11,13 @@ a {
 	text-decoration: none;
 }
 
+.templates a:hover{
+	text-decoration: underline;
+}
+
+a.button:hover{
+	text-decoration: none;
+}
 .instructions{
 	text-align: center;
 }
