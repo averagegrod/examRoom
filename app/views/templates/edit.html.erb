@@ -14,13 +14,13 @@
 	</form>     
 
 	<% end %>
-
-
-
+	<hr>
 	<%= form_for([@template, @template.questions.build]) do |f| %>
 	<%= render 'errorMessages' %>
 	<%= f.label :content, "New Template Question:"  %>	
-	<%= f.text_field :content %>
+	<%= f.text_field :content, :placeholder => "Required"%>
+	<%= f.label :placeHolder, "Place Holder Text:"  %>	
+	<%= f.text_field :placeHolder, :placeholder => "Place Holder text appears like this and is Optional." %>
 </div>
 <div class="row">
 	<div class="large-3 columns">
@@ -47,8 +47,10 @@
 			<li>nn: Neurogenic or Neuropathic Pain:</li>
 		</ul>
 	</div>
+
 </div>
 
 <div class="row">
+	<hr>
 	<p><%= link_to 'Edit Templates', template_settings_path %> | <%= link_to 'Templates', templates_path %></p>
 </div>

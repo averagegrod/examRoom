@@ -18,6 +18,6 @@ class QuestionsController < ApplicationController
 	end
 
 	def question_params
-		params.require(:question).permit(:content)
+		params.require(:question).permit(:content, :placeHolder)
 	end
 end

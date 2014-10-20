@@ -60,6 +60,11 @@ tr{
 	}
 }
 
+hr{
+	border-color:#008CBA;
+	border-style:double;
+}
+
 select{
 	@include appearance(none);
 	border:none;

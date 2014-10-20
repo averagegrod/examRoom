@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141020183342) do
+ActiveRecord::Schema.define(version: 20141020183343) do
 
   create_table "examrooms", force: true do |t|
     t.integer  "room"
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20141020183342) do
     t.integer  "template_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "PlaceHolder"
+    t.string   "placeHolder"
   end
 
   create_table "templates", force: true do |t|
