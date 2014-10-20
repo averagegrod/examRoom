@@ -21,13 +21,34 @@
 	<%= render 'errorMessages' %>
 	<%= f.label :content, "New Template Question:"  %>	
 	<%= f.text_field :content %>
+</div>
+<div class="row">
+	<div class="large-3 columns">
+		<%= f.submit "Add to Template", class: "button"  %>
+		<% end %>
 
+		<%= link_to "Delete Template", @template, method: :delete,
+		data: { confirm: "Are you sure you want to delete this template?" }, class:"button alert" %>
+	</div>
+	<div class="large-1 columns">
+		<h3>TAB Macros</h3>
+	</div>
+	<div class="large-4 columns">
+		<ul>
+			<li>pw: pain & where?</li>
+			<li>sw: swelling & where?</li>
+			<li>plr: Pain Level with Rest:</li>
+			<li>pla: Pain Level with Activity:</li>
+		</ul>
+	</div>
+	<div class="large-4 columns">
+		<ul>
+			<li>dp: Describe the pain:</li>
+			<li>nn: Neurogenic or Neuropathic Pain:</li>
+		</ul>
+	</div>
+</div>
 
-	<%= f.submit "Add to Template", class: "button"  %>
-	<% end %>
-
-	<%= link_to "Delete Template", @template, method: :delete,
-	data: { confirm: "Are you sure you want to delete this template?" }, class:"button alert" %>
-
+<div class="row">
 	<p><%= link_to 'Edit Templates', template_settings_path %> | <%= link_to 'Templates', templates_path %></p>
 </div>
